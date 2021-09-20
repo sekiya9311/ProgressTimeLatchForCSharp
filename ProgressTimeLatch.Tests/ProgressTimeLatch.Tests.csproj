@@ -6,6 +6,8 @@
         <IsPackable>false</IsPackable>
 
         <Nullable>enable</Nullable>
+
+        <RootNamespace>Progress.Time.Latch.Tests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,6 +21,10 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
         </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ProgressTimeLatch\ProgressTimeLatch.csproj" />
     </ItemGroup>
 
 </Project>
