@@ -81,7 +81,6 @@ namespace Progress.Time.Latch.Tests
         public async Task DisplayProgressAndExecuteSlowly()
         {
             var display = false;
-            var now = DateTime.Now;
             ProgressTimeLatchBuilder builder = new(f =>
             {
                 display = f;
