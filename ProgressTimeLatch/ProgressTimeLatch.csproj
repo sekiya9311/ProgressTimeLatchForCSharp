@@ -5,6 +5,13 @@
         <LangVersion>9</LangVersion>
         <Nullable>enable</Nullable>
         <RootNamespace>Progress.Time.Latch</RootNamespace>
+        <Title>ProgressTimeLatch</Title>
+        <Authors>sekiya9311</Authors>
+        <PackageProjectUrl>https://github.com/sekiya9311/ProgressTimeLatchForCSharp</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/sekiya9311/ProgressTimeLatchForCSharp/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/sekiya9311/ProgressTimeLatchForCSharp</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Description>This is a .NET Standard translation of https://github.com/chrisbanes/tivi/commit/96e7cae7560ffd358b8c58c47267ed1024df53f6 code.</Description>
     </PropertyGroup>
 
 </Project>
